@@ -14,6 +14,17 @@ $(call inherit-product, device/oneplus/giuliac/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# DerpFest Flags
+DERPFEST_BUILD_TYPE := Official
+WITH_GMS := true
+
+# Extras
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_ENABLE_BLUR := true
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_INCLUDE_ACCORD := false
+TARGET_EXCLUDE_BACKUPTOOL := true
+
 PRODUCT_NAME := lineage_giuliac
 PRODUCT_DEVICE := giuliac
 PRODUCT_MANUFACTURER := OnePlus

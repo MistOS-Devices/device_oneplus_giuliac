@@ -45,4 +45,7 @@
 
     <!-- The radius of the enrollment progress bar, in dp -->
     <integer name="config_udfpsEnrollProgressBar" translatable="false">97</integer>
+    
+    <!-- DerpFest Maintainer -->
+    <string name="derpfest_maintainer">0mar</string>
 </resources>
