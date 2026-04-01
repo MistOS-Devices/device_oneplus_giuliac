@@ -1,6 +1,14 @@
 [
   {
-    "repository": "android_device_oneplus_sm8650-common",
-    "target_path": "device/oneplus/sm8650-common"
+    "repository": "MistOS-Devices/device_oneplus_sm8650-common",
+    "target_path": "device/oneplus/sm8650-common",
+    "branch": "16.2",
+    "remote": "github-non-los"
+  },
+  {
+    "repository": "aosp-for-giulia/proprietary_vendor_oneplus_giuliac",
+    "target_path": "vendor/oneplus/giuliac",
+    "branch": "derp-16.2",
+    "remote": "github-non-los"
   }
 ]
