@@ -14,14 +14,19 @@ $(call inherit-product, device/oneplus/giuliac/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-# DerpFest Flags
-DERPFEST_BUILD_TYPE := Official
+# MistOs Flags
+MISTOS_MAINTAINER := ShivaOP
+TARGET_ENABLE_BLUR := true
+TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := false
 WITH_GMS := true
-
-# Extras
+TARGET_USES_MINI_GAPPS := true
+TARGET_DEFAULT_PIXEL_LAUNCHER := false
+TARGET_HAS_UDFPS := true
+EXTRA_UDFPS_ANIMATIONS := true
+TARGET_SUPPORTS_QUICK_TAP := true
+MIST_BUILD_TYPE := OFFICIAL
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_ENABLE_BLUR := true
-TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_INCLUDE_ACCORD := false
 TARGET_EXCLUDE_BACKUPTOOL := true
 
