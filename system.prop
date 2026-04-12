@@ -1,0 +1,9 @@
+# MistOS Device Info
+ro.mist.display=2780 x 1264, 120 hz
+ro.mist.battery=6415mah
+ro.mist.soc=Snapdragon® 8 Gen 3
+ro.mist.camera=50MP + 50MP + 8MP
+ro.mist.front=16MP
+ro.mist.platform=SM8650-AB
+ro.mist.screen=6.78' AMOLED
+ro.mist.device.name=OnePlus ACE 5
